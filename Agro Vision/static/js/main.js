@@ -139,3 +139,7 @@ function animateCounters() {
         requestAnimationFrame(animation);
     });
 }
+
+
+document.getElementById("confidence").innerText =
+    data.confidence + "% confidence";
